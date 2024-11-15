@@ -202,6 +202,52 @@ body {
 
 /* Extra Mile Section */
 
+.extra-mile {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 32px 29px 54px;
+
+  border-radius: 18px;
+  background-color: #222;
+  gap: 165px;
+}
+
+.extra-mile img {
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+
+.extra-mile-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFF;
+  max-width: 443px;
+
+}
+
+.extra-mile-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.50);
+  margin-top: 14px;
+  max-width: 443px;
+}
+
+.extra-mile-btn {
+  border: none;
+  padding: 16px 40px;
+  border-radius: 42px;
+  background-color: var(--btn-primary-color);
+  color: #FFF;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 34px;
+}
 
 /* responsive style  */
 
@@ -244,9 +290,19 @@ body {
   .habits-title {
     font-size: 2rem;
   }
-  .habits-description{
+
+  .habits-description {
     font-size: 1rem;
   }
+  .extra-mile{
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 66px;
+  }
+  .extra-mile-title{
+    font-size: 2rem;
+  }
+  
 
 }
 
