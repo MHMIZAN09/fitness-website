@@ -147,6 +147,62 @@ body {
 }
 
 
+/* change your habits section  */
+
+.habits {
+  margin: 100px 0px;
+}
+
+.habits-title {
+  text-align: center;
+  color: #FFF;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+
+.habits-description {
+  text-align: center;
+  color: var(--btn-secondary-color);
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 14px 0px 58px 0px;
+}
+
+.habit-cards {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid red; */
+  gap: 40px;
+}
+
+.habit-card img {
+  border-radius: 50%;
+  border: 2px solid #6b6b6d;
+}
+
+.habit-card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #FFF;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+.habit-card-description {
+  font: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.50);
+
+}
+
+
+/* Extra Mile Section */
+
+
 /* responsive style  */
 
 /* mobile device  */
@@ -175,6 +231,21 @@ body {
 
   .menu-icon {
     display: flex;
+  }
+
+  .habit-cards {
+    flex-direction: column;
+  }
+
+  .habits {
+    margin: 0px;
+  }
+
+  .habits-title {
+    font-size: 2rem;
+  }
+  .habits-description{
+    font-size: 1rem;
   }
 
 }
