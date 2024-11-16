@@ -249,6 +249,218 @@ body {
   margin-top: 34px;
 }
 
+/* trainings and exercises section  */
+.trainings {
+  margin: 100px 0px;
+}
+
+.trainings-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFF;
+}
+
+.trainings-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--btn-secondary-color);
+  max-width: 680px;
+  margin-top: 14px;
+  margin-bottom: 58px;
+}
+
+
+.training-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.training-item {
+  height: 200px;
+}
+
+.training-item-img1 {
+  background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%), url(../images/exercise1.jpg) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.training-item1 {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.training-item-img2 {
+  background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%), url(../images/exercise2.png) lightgray -0.336px 0px / 100.125% 111.811% no-repeat;
+  position: relative;
+}
+
+.training-item2 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.training-item-img3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise3.png) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.training-item3 {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.training-item-img4 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/exercise4.png) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.training-item4 {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.training-item-img5 {
+  background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%), url(../images/exercise5.jpg) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.training-item5 {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.training-item-img6 {
+  background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%), url(../images/exercise6.jpg) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.training-item6 {
+  position: absolute;
+  bottom: 35px;
+  left: 20px;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* MEMBERSHIP PLANS */
+.membership {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFF;
+  margin-bottom: 58px;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 100px;
+
+
+}
+
+.cards {
+  background-color: #222;
+  width: 500px;
+  height: 600px;
+  /* margin-right: 10px; */
+  border-radius: 10px;
+
+}
+
+.plan-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FFF;
+  background-color: var(--btn-primary-color);
+  border-radius: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.premium span,
+.standard span,
+.basic span {
+  font-size: 3rem;
+  color: red;
+  font-weight: 600;
+}
+
+.premium h1,
+.standard h1,
+.basic h1 {
+  margin-top: 15px;
+}
+
+.premium sub,
+.standard sub,
+.basic sub {
+  color: #FFF;
+}
+
+.plan-durration,
+.plan-trainer,
+.plan-amount,
+.plan-visit {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--btn-secondary-color);
+  margin-top: 15px;
+}
+
+.plan-month,
+.plan-person,
+.plan-personNo,
+.plan-limit {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFF;
+  margin-top: 15px;
+}
+
+.plan-btn {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  border: 1px solid #E6533C;
+  background-color: #222;
+  color: #FFF;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.plan-btn:hover{
+  background-color: var(--btn-primary-color);
+  border: none;
+}
+
 /* responsive style  */
 
 /* mobile device  */
@@ -294,15 +506,30 @@ body {
   .habits-description {
     font-size: 1rem;
   }
-  .extra-mile{
+
+  .extra-mile {
     flex-direction: column;
     gap: 24px;
     margin-top: 66px;
   }
-  .extra-mile-title{
+
+  .extra-mile-title {
     font-size: 2rem;
   }
-  
+
+  .training-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .plans {
+    flex-direction: column;
+  }
+
+  .cards {
+    width: 100%;
+    /* height: 100%; */
+  }
+
 
 }
 
