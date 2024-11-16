@@ -208,7 +208,6 @@ body {
   justify-items: center;
   align-items: center;
   padding: 30px 32px 29px 54px;
-
   border-radius: 18px;
   background-color: #222;
   gap: 165px;
@@ -456,10 +455,307 @@ body {
   margin: 15px 0px;
   cursor: pointer;
 }
-.plan-btn:hover{
+
+.plan-btn:hover {
   background-color: var(--btn-primary-color);
   border: none;
 }
+
+
+/* BMI Calculator Section */
+
+.bmi-section {
+  margin-bottom: 88px;
+}
+
+.bmi {
+  margin-left: 20%;
+}
+
+.bmi-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFF;
+  margin-bottom: 14px;
+}
+
+.bmi-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--btn-secondary-color);
+  max-width: 680px;
+  margin-bottom: 88px;
+}
+
+.bmi-bg {
+  background-color: #222;
+}
+
+.bmi-calc {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+  flex-wrap: wrap;
+
+}
+
+.bmi-chart,
+.bmi-form {
+  flex: 1;
+  margin-top: 52px;
+  margin-bottom: 50px;
+}
+
+.bmi-chart h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #FFF;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+
+table,
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+
+
+th {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FFF;
+
+}
+
+td {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.50);
+}
+
+th,
+td {
+  height: 30px;
+  padding: 15px;
+}
+
+.bmi-form h1 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #FFF;
+  margin-bottom: 28px;
+}
+
+.bmi-form p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.50);
+  margin-bottom: 38px;
+}
+
+.input-group {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.input-group input,
+.input-group select,
+.full-width select {
+  flex: 1;
+  padding: 12px 40px 12px 20px;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.full-width select {
+  width: 100%;
+}
+
+
+input::placeholder {
+  color: #ccc;
+}
+
+select {
+  color: #ccc;
+}
+
+
+select:focus {
+  outline: none;
+}
+
+.button {
+  padding: 16px 40px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--btn-primary-color);
+  border: none;
+  border-radius: 42px;
+  cursor: pointer;
+  width: 224px;
+  margin-top: 34px;
+
+}
+
+/* Team Section  */
+.team {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.team-title {
+  margin-bottom: 14px;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #FFF;
+}
+
+.team-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--btn-secondary-color);
+  max-width: 680px;
+  margin: auto;
+  margin-bottom: 58px;
+}
+
+.team-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.10);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.team-card img {
+  height: 272px;
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.team-card {
+  position: relative;
+}
+
+.trainer-details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.trainer-details h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.trainer-details p {
+  font-size: 0.9rem;
+  margin: 0;
+  color: #ccc;
+}
+
+/* footer section  */
+
+footer {
+  background-color: rgba(255, 255, 255, 0.10);
+  padding: 20px 15px;
+  color: #fff;
+}
+
+
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 102px;
+  flex-wrap: wrap;
+
+}
+
+.footer {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-title {
+  font-size: 4rem;
+  color: #ff6243;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.footer-description {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 444px;
+}
+
+.footer-link {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 120px;
+  flex-wrap: wrap;
+  min-width: 250px;
+}
+
+.footer-link div {
+  flex: 1;
+  min-width: 150px;
+}
+
+.footer-link h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.footer-link a {
+  display: block;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-bottom: 8px;
+
+
+}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #444;
+  margin: 40px 0px 20px 0px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
+
 
 /* responsive style  */
 
@@ -511,10 +807,45 @@ body {
     flex-direction: column;
     gap: 24px;
     margin-top: 66px;
+    padding: 20px;
   }
 
   .extra-mile-title {
     font-size: 2rem;
+  }
+
+  .extra-mile img {
+    width: 287px;
+    height: 170px;
+  }
+
+  .bmi {
+    margin: 30px;
+  }
+
+  .bmi-title {
+    font-size: 2rem;
+  }
+
+  .bmi-calc {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .bmi-chart,
+  .bmi-form {
+    flex: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .full-width select {
+    width: 100%;
+  }
+
+  .button {
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .training-gallery {
@@ -529,6 +860,36 @@ body {
     width: 100%;
     /* height: 100%; */
   }
+
+
+
+  .team-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: start;
+  }
+
+  .footer-link {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .footer {
+    text-align: start;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+
+  .footer-link {
+    gap: 20px;
+  }
+
+
 
 
 }
