@@ -144,8 +144,40 @@ body {
 
 .hero-img {
   position: relative;
+
 }
 
+
+.hero-video {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 10%;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.hero-workout {
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.hero-video img {
+  width: 40px;
+}
 
 /* change your habits section  */
 
